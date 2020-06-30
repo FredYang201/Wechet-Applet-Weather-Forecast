@@ -1,0 +1,18 @@
+/**index.wxss**/
+input {
+  height: 30px;
+  width: 96%;
+  border: 1px solid red;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+button {
+  margin: 20px auto;
+}
+
+scroll-view {
+  width: 96%;
+  border: 1px solid blue;
+}
+

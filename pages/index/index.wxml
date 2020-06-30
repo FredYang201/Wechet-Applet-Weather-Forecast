@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <input placeholder="输入查询的城市" bindinput="input"/>
+   <button type="primary" bindtap="btnClick">查询</button>
+   <scroll-view scroll-y="true" style="height: 300px;">
+    <view wx:for="{{weatherInfo}}" wx:key="index"> 
+      {{item['dt_txt']}} -- {{item['weather'][0]['description']}}
+    </view>
+    </scroll-view> 
+</view>
